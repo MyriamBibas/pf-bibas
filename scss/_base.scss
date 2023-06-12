@@ -1,0 +1,19 @@
+/*Reseteo de css*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Variables*/
+$color-primary: rgb(27, 164, 243);
+$font-family: Ysabeau, sans-serif;
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
