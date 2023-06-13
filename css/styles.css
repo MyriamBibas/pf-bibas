@@ -1,3 +1,335 @@
+/*Reseteo de css*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+/* Variables*/
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  color: rgb(27, 164, 243);
+  font-family: ysabeau, sans-serif;
+  text-align: center;
+  font-size: 38px;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: overline;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.footer {
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(27, 164, 243);
+}
+
+h1 {
+  color: rgb(27, 164, 243);
+  font-size: 50px;
+  font-family: Ysabeau, sans-serif;
+  position: center;
+}
+
+.imagen-encabezado {
+  width: 10%;
+  height: 10%;
+  position: center;
+}
+
+/*Contenido mobile*/
+.img-niveles {
+  width: 300px;
+  height: 300px;
+}
+
+.img-posicion {
+  width: 300px;
+  height: 300px;
+}
+
+.img-terminos {
+  width: 300px;
+  height: 300px;
+}
+
+.img-movimientos {
+  width: 300px;
+  height: 300px;
+}
+
+.img-cavidades {
+  width: 300px;
+  height: 300px;
+}
+
+.img-serosas {
+  width: 300px;
+  height: 300px;
+}
+
+.box-carrusel {
+  width: 400px;
+  height: 400px;
+}
+
+/* Contedido Descktop*/
+@media (min-width: 1024px) and (orientation: landscape) {
+  .img-niveles {
+    grid-area: articule;
+    width: 500px;
+    height: 500px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .img-niveles:hover {
+    transform: scale(1.6);
+  }
+  .img-posicion {
+    grid-area: articule;
+    width: 500px;
+    height: 480px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .img-posicion:hover {
+    transform: scale(1.6);
+  }
+  .img-terminos {
+    grid-area: articule;
+    width: 500px;
+    height: 480px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: -4;
+    grid-row-end: -3;
+  }
+  .img-terminos:hover {
+    transform: scale(1.6);
+  }
+  .img-movimientos {
+    grid-area: articule;
+    width: 480px;
+    height: 400px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .img-movimientos:hover {
+    transform: scale(1.6);
+  }
+  .img-cavidades {
+    grid-area: articule;
+    width: 480px;
+    height: 400px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .img-cavidades:hover {
+    transform: scale(1.6);
+  }
+  .img-serosas {
+    grid-area: articule;
+    width: 480px;
+    height: 400px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: -3;
+    grid-row-end: -2;
+  }
+  .box-carrusel {
+    grid-area: carrusel;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: -1;
+  }
+  .box-carrusel:hover {
+    transform: scale(1.6);
+  }
+}
+/*Estilos con bootstrap*/ /*contenido mobile sistemas*/
+.img-niveles {
+  grid-area: articule;
+  width: 500px;
+  height: 500px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.img-posicion {
+  grid-area: articule;
+  width: 500px;
+  height: 480px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.img-terminos {
+  grid-area: articule;
+  width: 500px;
+  height: 480px;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: -4;
+  grid-row-end: -3;
+}
+
+.img-movimientos {
+  grid-area: articule;
+  width: 480px;
+  height: 400px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.img-cavidades {
+  grid-area: articule;
+  width: 480px;
+  height: 400px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.img-serosas {
+  grid-area: articule;
+  width: 480px;
+  height: 400px;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: -3;
+  grid-row-end: -2;
+}
+
+/*contenido descktop sistemas*/
+@media (min-width: 1024px) and (orientation: landscape) {
+  .img-niveles {
+    grid-area: articule;
+    width: 500px;
+    height: 500px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .img-niveles:hover {
+    transform: scale(1.6);
+  }
+  .img-posicion {
+    grid-area: articule;
+    width: 500px;
+    height: 480px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .img-posicion:hover {
+    transform: scale(1.6);
+  }
+  .img-terminos {
+    grid-area: articule;
+    width: 500px;
+    height: 480px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: -4;
+    grid-row-end: -3;
+  }
+  .img-terminos:hover {
+    transform: scale(1.6);
+  }
+  .img-movimientos {
+    grid-area: articule;
+    width: 480px;
+    height: 400px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .img-movimientos:hover {
+    transform: scale(1.6);
+  }
+  .img-cavidades {
+    grid-area: articule;
+    width: 480px;
+    height: 400px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .img-cavidades:hover {
+    transform: scale(1.6);
+  }
+  .img-serosas {
+    grid-area: articule;
+    width: 480px;
+    height: 400px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: -3;
+    grid-row-end: -2;
+  }
+  .img-serosas:hover {
+    transform: scale(1.6);
+  }
+}
+/*contenido mobile index*/
+.caja-div1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0%;
+  margin: 0%;
+  gap: 40px;
+  border-style: none;
+}
+
+/*contenido descktop index*/
+@media (min-width: 1024px) and (orientation: landscape) {
+  .caja-div1 {
+    border-style: none;
+    border-color: rgb(27, 164, 243);
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 600px 600px 600px;
+    grid-template-areas: "articule articule articule" "articule articule articule" "carrusel carusel carrusel";
+    justify-items: center;
+    justify-content: space-evenly;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */

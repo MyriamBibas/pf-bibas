@@ -1,0 +1,153 @@
+/*contenido mobile sistemas*/
+.img-niveles {
+    grid-area: articule;
+    width: 500px;
+    height: 500px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+}
+
+.img-posicion {
+    grid-area: articule;
+    width: 500px;
+    height: 480px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+}
+
+.img-terminos {
+    grid-area: articule;
+    width: 500px;
+    height: 480px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: -4;
+    grid-row-end: -3;
+
+}
+
+.img-movimientos {
+    grid-area: articule;
+    width: 480px;
+    height: 400px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+}
+
+.img-cavidades {
+
+    grid-area: articule;
+    width: 480px;
+    height: 400px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+}
+
+.img-serosas {
+    grid-area: articule;
+    width: 480px;
+    height: 400px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: -3;
+    grid-row-end: -2;
+}
+
+/*contenido descktop sistemas*/
+@media(min-width:1024px)and (orientation:landscape) {
+    .img-niveles {
+        grid-area: articule;
+        width: 500px;
+        height: 500px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        &:hover {
+            transform: scale(1.6);
+          }
+
+    }
+
+    .img-posicion {
+        grid-area: articule;
+        width: 500px;
+        height: 480px;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2; 
+        &:hover {
+            transform: scale(1.6);
+          }
+
+    }
+
+    .img-terminos {
+        grid-area: articule;
+        width: 500px;
+        height: 480px;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: -4;
+        grid-row-end: -3;
+        &:hover {
+            transform: scale(1.6);
+          }
+
+    }
+
+    .img-movimientos {
+        grid-area: articule;
+        width: 480px;
+        height: 400px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        &:hover {
+            transform: scale(1.6);
+          }
+
+    }
+
+    .img-cavidades {
+
+        grid-area: articule;
+        width: 480px;
+        height: 400px;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        &:hover {
+            transform: scale(1.6);
+          }
+
+    }
+
+    .img-serosas {
+        grid-area: articule;
+        width: 480px;
+        height: 400px;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: -3;
+        grid-row-end: -2;
+        &:hover {
+            transform: scale(1.6);
+          }
+    }
+}
