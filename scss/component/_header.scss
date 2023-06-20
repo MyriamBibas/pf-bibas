@@ -1,4 +1,4 @@
-
+/* contenido descktop*/
 h1 {
     color: rgb(27, 164, 243);
     font-size: 50px;
@@ -8,9 +8,37 @@ h1 {
       
 .imagen-encabezado {
   width:10%;
-  height: 10%;
+  height: 40%;
   position: center;
 
 }
+.encabezado{
+  padding: 20px;
+  margin-bottom:0%;
+  background-color:lightblue;
+  height: auto;
+ }
+.iconos-del-encabezado {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+.busqueda{
+  position: absolute;
+  top: 10px;
+  right: 300px;
+  
+}
 
+/*contenido mobile*/
+
+@media(max-width: 760px) {
+  .busqueda{
+ display: none;
+
+  }
+}
 
