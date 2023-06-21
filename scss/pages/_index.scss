@@ -9,6 +9,17 @@
     gap: 40px;
     border-style: none;}
 
+    .img{
+        display: block;
+        border-color: aqua;
+        width: 200px;
+        height: 200px;
+        margin-left: 200px;
+        margin-right: 200px;
+        align-content: center ;
+    
+    }
+
     /*contenido descktop index*/
 
 @media(min-width:1024px)and (orientation:landscape) {
@@ -27,5 +38,11 @@
         justify-items: center;
         justify-content: space-evenly;
     }
-}
+    .img {
+        margin-top: 800px;
+        height: 300px;
+        width: 500px;
+        justify-items: center ;  
 
+    }
+}

@@ -351,6 +351,16 @@ h1 {
   border-style: none;
 }
 
+.img {
+  display: block;
+  border-color: aqua;
+  width: 200px;
+  height: 200px;
+  margin-left: 200px;
+  margin-right: 200px;
+  align-content: center;
+}
+
 /*contenido descktop index*/
 @media (min-width: 1024px) and (orientation: landscape) {
   .caja-div1 {
@@ -362,6 +372,12 @@ h1 {
     grid-template-areas: "articule articule articule" "articule articule articule" "carrusel carusel carrusel";
     justify-items: center;
     justify-content: space-evenly;
+  }
+  .img {
+    margin-top: 800px;
+    height: 300px;
+    width: 500px;
+    justify-items: center;
   }
 }
 
