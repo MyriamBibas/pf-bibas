@@ -86,7 +86,29 @@ h1 {
     display: none;
   }
 }
-/*estilos con bootstrap*/ /*Contenido mobile*/
+/*estilos con bootstrap*/
+/*version mobile*/
+@media (max-width: 767px) {
+  .formulario {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
+/* version tablet*/
+@media (min-width: 768px) and (max-width: 1023px) {
+  .formulario {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
+/*version desktop*/
+@media (min-width: 1024px) and (orientation: landscape) {
+  .formulario {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}
+/*Contenido mobile*/
 .img-niveles {
   width: 300px;
   height: 300px;
