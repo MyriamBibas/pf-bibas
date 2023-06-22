@@ -1,11 +1,11 @@
 /*Reseteo de css*/
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Variables*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Variables*/
 $color-primary: rgb(27, 164, 243);
 $font-family: Ysabeau, sans-serif;
 
@@ -18,16 +18,18 @@ a {
   text-decoration: none;
 }
 
-
+/*version mobile*/
 
 h2 {
+  display:block;
   color: rgb(27, 164, 243);
   font-family: ysabeau, sans-serif;
   text-align: center;
-  font-size: 38px;
+  font-size: 20px;
 }
 
 h3 {
+  font-size:20px;
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: overline;
   margin-top: 60px;
@@ -36,13 +38,54 @@ h3 {
 
 
 }
- 
+
 
 .menu {
-position: relative;
+  width: 100vw;
+  box-sizing: border-box;
+ 
 
 }
 
 body {
   min-height: 100vh;
+}
+/* version tablet*/
+@media (min-width: 768px) and (max-width: 1023px) {
+  
+  h2 {
+    display:block;
+    color: rgb(27, 164, 243);
+    font-family: ysabeau, sans-serif;
+    text-align: center;
+    font-size:30px;
+  }
+  
+  h3 {
+    font-size:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: overline;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    text-align: center;
+  
+  
+  }
+  
+  
+  .menu {
+    width: 100vw;
+    box-sizing: border-box;
+   
+  
+  }
+  
+  body {
+    min-height: 100vh;
+}
+}
+  /*version desktop*/
+@media (min-width: 1024px)and (orientation:landscape) {
+
+
 }
