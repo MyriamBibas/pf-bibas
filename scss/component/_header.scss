@@ -3,7 +3,7 @@
   width: 100vw;
   margin-bottom: 0%;
   background-color: lightblue;
-  height: auto;
+  height:auto;
 }
 
 h1 {
@@ -21,8 +21,9 @@ h1 {
 
 
 .iconos-del-encabezado {
-  font-size: 10px;
+  font-size: 1rem;
   position: relative;
+  margin-right: 10px;
   top: 0;
   left: 0;
   display: flex;
@@ -33,10 +34,10 @@ h1 {
 .busqueda {
   display: inline-block;
   font-size: 15px;
+  margin-right:10px;
   text-align: right;
 
 }
-
 
 
 /* version tablet*/
@@ -66,7 +67,7 @@ h1 {
   }
 
   .iconos-del-encabezado {
-    font-size: 18px;
+    font-size:1rem;
     position: relative;
     top: 0;
     left: 0;
@@ -122,9 +123,11 @@ h1 {
   .iconos-del-encabezado {
     display: block;
     text-align: right;
+    font-size:1rem ;
     flex-direction: row-reverse;
-    margin-right: 100px;
+    margin-right: 1em;
   }
+  
 
   .busqueda {
     text-align: right;
