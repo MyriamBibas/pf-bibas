@@ -1,4 +1,4 @@
-/*version mobile*/
+/*footer mobile*/
 .footer {
 
         width: 100vw;
@@ -15,7 +15,7 @@
 }
 
 
-/* version tablet*/
+/* footer tablet*/
 @media (min-width: 768px) and (max-width: 1023px) {}
 
 .footer {
@@ -34,7 +34,7 @@
         align-items: right;
 }
 
-/*version desktop*/
+/*footer desktop*/
 @media (min-width: 1024px)and (orientation:landscape) {}
 
 .footer {
